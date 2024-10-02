@@ -1,0 +1,30 @@
+{
+    "config_id": "__ID__",
+    "coinfig_time": 12345678,
+    "user_id": "krishna",
+    "dev_detail": [
+        {
+            "dev_type": 7,
+            "dev_name": "DHT 22",
+            "id_room": "",
+            "id_item": 16,
+            "gpio": 18
+        },
+        {
+            "dev_type": 1,
+            "dev_name": "Office test",
+            "id_room": "",
+            "id_item": 2,
+            "val_ip": true,
+            "val_op": false,
+            "gpio_in": 21,
+            "gpio_out": 2,
+            "is_ip": false,
+            "ip_inv": true,
+            "pullup_ip": true,
+            "pullup_op": true,
+            "op_inv": false
+        }
+    ],
+    "dev_total": 2
+}
