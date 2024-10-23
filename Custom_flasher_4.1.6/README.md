@@ -54,7 +54,7 @@ Build the firmware with the newly modified file and flash the device using the c
 
 ### 8. Connect via Bluetooth
 - Establish a Bluetooth connection with the device.
-- Use **Service 0x00E3** and **Characteristic 0xE01**.
+- Use **Service 0x00E3** and **Characteristic 0xE301**.
 
 ### 9. Trigger
 
