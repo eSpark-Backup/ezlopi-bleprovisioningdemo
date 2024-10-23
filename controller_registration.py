@@ -9,8 +9,8 @@ payload = json.dumps({
     "params": {
         # "user_id": "krishna",
         # "user_password": "Krishna123*#"
-        "user_id": "krishna1234",
-        "user_password": "Krishna123*#"
+        "user_id": "Ash",
+        "user_password": "Berlin123"
     }
 })
 
