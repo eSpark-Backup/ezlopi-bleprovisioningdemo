@@ -113,10 +113,10 @@ if (1 == j_login_response["status"] and 1 == j_login_response["complete"]):
                         prov_file_data["ssl_shared_key"] = provision_data["ssl_shared_key"]
                         prov_file_data["signing_ca_certificate"] = provision_data["signing_ca_certificate"]
                         prov_file_data["uuid"] = provision_data["uuid"]
-                        prov_file_data["user_id"] = "krishna"
+                        prov_file_data["user_id"] = "Ash"
                         prov_file_data["device_name"] = new_controller_name
                         prov_file_data["brand"] = "Ezlo-Pi"
-                        prov_file_data["manufacturer_name"] = "Nepal Digital System"
+                        prov_file_data["manufacturer_name"] = "eSpark"
                         prov_file_data["model_number"] = "NT-3.0.4.x"
                         prov_file_data["mac"] = "11:22:33:44:55:66"
                         prov_file_data["uuid_provisioning"] = provision_data["cloud_uuid"]
