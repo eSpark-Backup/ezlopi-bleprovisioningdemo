@@ -23,7 +23,7 @@ payload = json.dumps({
 - Replace every **`"`** with **`\"`** to format the JSON as a valid C-style string.
 
 ### 3. Clean Up the Formatting
-- Remove all **`\r`** and replace them with a space.
+- Remove all **`\r`** and replace them with nothing.
 - Replace **`\n`** with **`\\n`** to ensure proper string formatting for C code.
 
 ### 4. Modify the Cloud Server Link
@@ -40,7 +40,7 @@ https://cloud.ezlo.com:7000/getserver
 Replace the existing `ezlopi_service_ble_provisioning.c` file in the Ezlo firmware with the modified file that you generated in previous steps.
 
 ### 6. Insert the New Provisioning JSON
-Locate **line 198** in `ezlopi_service_ble_provisioning.c` and replace the old JSON with your newly generated provisioning JSON.
+Locate **line 202** in `ezlopi_service_ble_provisioning.c` and replace the old JSON with your newly generated provisioning JSON.
 
 > **Example of the JSON string to insert:**
 ```c
